@@ -9,7 +9,7 @@ int Prompt(string message)
   return result;
 }
 
-int Factorial(int n)
+int Factorial(int n)//Факториал - математическая функция. Применяется в комбинаторике. Означает что 1*2*3*4... 
 {
   int prod = 1;
   for (int i = 1; i <= n; i++)
